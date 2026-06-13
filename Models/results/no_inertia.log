@@ -1,0 +1,60 @@
+
+Gurobi 13.0.1 (win64) logging started Sat May  2 12:25:38 2026
+
+Set parameter LogFile to value "./results\no_inertia.log"
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-7267U CPU @ 3.10GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 8 threads
+
+Warning: Thread count (8) is larger than processor count (4)
+         Reduce the value of the Threads parameter to improve performance
+
+
+Non-default parameters:
+MIPGap  0.01
+Method  0
+Heuristics  0.2
+MIPFocus  1
+NodeMethod  1
+NumericFocus  1
+Presolve  2
+Threads  8
+
+Academic license 2710734 - for non-commercial use only - registered to le___@student.kit.edu
+Optimize a model with 127446 rows, 97008 columns and 351041 nonzeros (Min)
+Model fingerprint: 0x6e853b9d
+Model has 32784 linear objective coefficients
+Variable types: 33024 continuous, 63984 integer (63984 binary)
+Coefficient statistics:
+  Matrix range     [9e-01, 1e+05]
+  Objective range  [5e+00, 4e+02]
+  Bounds range     [1e+00, 2e+05]
+  RHS range        [8e+00, 2e+05]
+
+Found heuristic solution: objective 5907149.0360
+Presolve removed 107295 rows and 56686 columns
+Presolve time: 0.53s
+Presolved: 20151 rows, 40322 columns, 80548 nonzeros
+Variable types: 20295 continuous, 20027 integer (20027 binary)
+Root relaxation presolve removed 47 rows and 47 columns
+Root relaxation presolved: 20104 rows, 40275 columns, 80434 nonzeros
+
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover time: 0.02 seconds (0.01 work units)
+
+Root relaxation: objective 0.000000e+00, 593 iterations, 0.16 seconds (0.07 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0       0.0000000    0.00000  0.00%     -    0s
+
+Explored 1 nodes (593 simplex iterations) in 0.93 seconds (0.57 work units)
+Thread count was 8 (of 4 available processors)
+
+Solution count 2: 0 5.90715e+06 
+
+Optimal solution found (tolerance 1.00e-02)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0000%

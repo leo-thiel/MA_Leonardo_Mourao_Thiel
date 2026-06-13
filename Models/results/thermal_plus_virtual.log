@@ -1,0 +1,228 @@
+
+Gurobi 13.0.1 (win64) logging started Sat May  2 12:25:26 2026
+
+Set parameter LogFile to value "./results\thermal_plus_virtual.log"
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-7267U CPU @ 3.10GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 8 threads
+
+Warning: Thread count (8) is larger than processor count (4)
+         Reduce the value of the Threads parameter to improve performance
+
+
+Non-default parameters:
+MIPGap  0.01
+Method  0
+Heuristics  0.2
+MIPFocus  1
+NodeMethod  1
+NumericFocus  1
+Presolve  2
+Threads  8
+
+Academic license 2710734 - for non-commercial use only - registered to le___@student.kit.edu
+Optimize a model with 127688 rows, 97687 columns and 330261 nonzeros (Min)
+Model fingerprint: 0x4c1c0db6
+Model has 32837 linear objective coefficients
+Model has 208 quadratic constraints
+Variable types: 33703 continuous, 63984 integer (63984 binary)
+Coefficient statistics:
+  Matrix range     [9e-01, 2e+05]
+  QMatrix range    [1e+00, 9e+04]
+  QLMatrix range   [1e+00, 2e+05]
+  Objective range  [5e+00, 3e+06]
+  Bounds range     [1e+00, 2e+05]
+  RHS range        [1e+00, 2e+05]
+  QRHS range       [7e+03, 2e+05]
+
+Presolve removed 74216 rows and 32594 columns
+Presolve time: 0.97s
+Presolved: 54575 rows, 65301 columns, 174357 nonzeros
+Presolved model has 15 quadratic constraint(s)
+Presolved model has 320 bilinear constraint(s)
+
+Solving non-convex MIQCP to global optimality
+
+Variable types: 33285 continuous, 32016 integer (32016 binary)
+Root relaxation presolve removed 447 rows and 480 columns
+Root relaxation presolved: 54128 rows, 64821 columns, 173277 nonzeros
+
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover time: 0.07 seconds (0.03 work units)
+
+Root relaxation: objective 5.976170e+05, 2145 iterations, 0.45 seconds (0.19 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 597617.036    0   35          - 597617.036      -     -    2s
+H    0     0                    1114937.7036 597617.036  46.4%     -    2s
+     0     0 1003815.85    0   95 1114937.70 1003815.85  10.0%     -    3s
+H    0     0                    1075939.3116 1003815.85  6.70%     -    4s
+H    0     0                    1073203.5853 1003815.85  6.47%     -    4s
+H    0     0                    1073105.5474 1003815.85  6.46%     -    4s
+H    0     0                    1072943.8658 1003815.85  6.44%     -    4s
+H    0     0                    1072866.7122 1003815.85  6.44%     -    4s
+H    0     0                    1060344.8210 1003815.85  5.33%     -    5s
+H    0     0                    1053074.4896 1003815.85  4.68%     -    5s
+H    0     0                    1052877.7309 1003815.85  4.66%     -    5s
+H    0     0                    1020551.2357 1003815.85  1.64%     -    6s
+H    0     0                    1020430.7969 1003815.85  1.63%     -    6s
+H    0     0                    1020256.6874 1003815.85  1.61%     -    6s
+     0     0 1003815.85    0   97 1020256.69 1003815.85  1.61%     -    8s
+     0     0          -    0      1020256.69 1012688.79  0.74%     -    9s
+
+Cutting planes:
+  Lift-and-project: 1
+  Implied bound: 1
+  MIR: 2
+  Flow cover: 5
+  RLT: 10
+  BQP: 16
+
+Explored 1 nodes (7345 simplex iterations) in 9.26 seconds (2.78 work units)
+Thread count was 8 (of 4 available processors)
+
+Solution count 10: 1.02026e+06 1.02043e+06 1.02055e+06 ... 1.0732e+06
+
+Optimal solution found (tolerance 1.00e-02)
+Best objective 1.020256687440e+06, best bound 1.012688788690e+06, gap 0.7418%
+
+Gurobi 13.0.1 (win64) logging started Sat May  2 12:26:57 2026
+
+Set parameter LogFile to value "./results\thermal_plus_virtual.log"
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-7267U CPU @ 3.10GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 8 threads
+
+Warning: Thread count (8) is larger than processor count (4)
+         Reduce the value of the Threads parameter to improve performance
+
+
+Non-default parameters:
+MIPGap  0.01
+Method  0
+Heuristics  0.2
+MIPFocus  1
+NodeMethod  1
+NumericFocus  1
+Presolve  2
+Threads  8
+
+Academic license 2710734 - for non-commercial use only - registered to le___@student.kit.edu
+Optimize a model with 11152277 rows, 8957935 columns and 29097554 nonzeros (Min)
+Model fingerprint: 0xf3ae3dd5
+Model has 2796046 linear objective coefficients
+Model has 117832 quadratic constraints
+Variable types: 3544591 continuous, 5413344 integer (5413344 binary)
+Coefficient statistics:
+  Matrix range     [3e-02, 2e+05]
+  QMatrix range    [9e-04, 1e+05]
+  QLMatrix range   [1e+00, 2e+05]
+  Objective range  [5e+00, 1e+08]
+  Bounds range     [1e+00, 8e+05]
+  RHS range        [9e-02, 2e+05]
+  QRHS range       [2e-01, 2e+05]
+
+Presolve removed 39798 rows and 281589 columns (presolve time = 5s)...
+Presolve removed 375558 rows and 486287 columns (presolve time = 10s)...
+Presolve removed 377804 rows and 534393 columns (presolve time = 16s)...
+Presolve removed 377804 rows and 538046 columns (presolve time = 21s)...
+Presolve removed 388220 rows and 601815 columns (presolve time = 25s)...
+Presolve removed 4150752 rows and 3402290 columns (presolve time = 32s)...
+Presolve removed 4150752 rows and 3454338 columns (presolve time = 35s)...
+Presolve removed 6925525 rows and 3455594 columns (presolve time = 40s)...
+Presolve removed 6931776 rows and 3497585 columns (presolve time = 45s)...
+Presolve removed 6931776 rows and 3498808 columns (presolve time = 50s)...
+Presolve removed 6932172 rows and 3548697 columns (presolve time = 56s)...
+Presolve removed 6932172 rows and 3548697 columns (presolve time = 60s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 65s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 70s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 75s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 81s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 85s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 90s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 95s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 100s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 105s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 110s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 115s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 120s)...
+Presolve removed 6981665 rows and 3593481 columns
+Presolve time: 135.29s
+
+Explored 0 nodes (0 simplex iterations) in 137.17 seconds (97.33 work units)
+Thread count was 1 (of 4 available processors)
+
+Solution count 0
+
+Best objective -, best bound -, gap -
+
+Gurobi 13.0.1 (win64) logging started Sat May  2 15:14:13 2026
+
+Set parameter LogFile to value "./results\thermal_plus_virtual.log"
+Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: Intel(R) Core(TM) i5-7267U CPU @ 3.10GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 2 physical cores, 4 logical processors, using up to 8 threads
+
+Warning: Thread count (8) is larger than processor count (4)
+         Reduce the value of the Threads parameter to improve performance
+
+
+Non-default parameters:
+MIPGap  0.01
+Method  0
+Heuristics  0.2
+MIPFocus  1
+NodeMethod  1
+NumericFocus  1
+Presolve  2
+Threads  8
+
+Academic license 2710734 - for non-commercial use only - registered to le___@student.kit.edu
+Optimize a model with 11152277 rows, 8957935 columns and 29097554 nonzeros (Min)
+Model fingerprint: 0xf3ae3dd5
+Model has 2796046 linear objective coefficients
+Model has 117832 quadratic constraints
+Variable types: 3544591 continuous, 5413344 integer (5413344 binary)
+Coefficient statistics:
+  Matrix range     [3e-02, 2e+05]
+  QMatrix range    [9e-04, 1e+05]
+  QLMatrix range   [1e+00, 2e+05]
+  Objective range  [5e+00, 1e+08]
+  Bounds range     [1e+00, 8e+05]
+  RHS range        [9e-02, 2e+05]
+  QRHS range       [2e-01, 2e+05]
+
+Presolve removed 0 rows and 0 columns (presolve time = 7s)...
+Presolve removed 1 rows and 25352 columns (presolve time = 11s)...
+Presolve removed 371310 rows and 457227 columns (presolve time = 15s)...
+Presolve removed 377804 rows and 534350 columns (presolve time = 21s)...
+Presolve removed 377804 rows and 534393 columns (presolve time = 28s)...
+Presolve removed 377804 rows and 534393 columns (presolve time = 31s)...
+Presolve removed 377804 rows and 538046 columns (presolve time = 37s)...
+Presolve removed 388220 rows and 538046 columns (presolve time = 42s)...
+Presolve removed 388220 rows and 601815 columns (presolve time = 45s)...
+Presolve removed 456352 rows and 670000 columns (presolve time = 50s)...
+Presolve removed 4150752 rows and 3402290 columns (presolve time = 55s)...
+Presolve removed 4150752 rows and 3454338 columns (presolve time = 60s)...
+Presolve removed 4150756 rows and 3454338 columns (presolve time = 65s)...
+Presolve removed 6931776 rows and 3462095 columns (presolve time = 72s)...
+Presolve removed 6931776 rows and 3497585 columns (presolve time = 75s)...
+Presolve removed 6931776 rows and 3498808 columns (presolve time = 81s)...
+Presolve removed 6932172 rows and 3548697 columns (presolve time = 85s)...
+Presolve removed 6932172 rows and 3548697 columns (presolve time = 90s)...
+Presolve removed 6981665 rows and 3548707 columns (presolve time = 96s)...
+Presolve removed 6981665 rows and 3592942 columns (presolve time = 100s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 105s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 111s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 115s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 120s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 126s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 130s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 135s)...
+Presolve removed 6981665 rows and 3593481 columns (presolve time = 140s)...
