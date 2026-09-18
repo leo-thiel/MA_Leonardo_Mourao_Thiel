@@ -8,7 +8,7 @@ analysis of system inertia for the years 2024 and 2040.
 
 ## Author
 
-Leonardo Gabriel Mourao Thiel (2396158)  
+Leonardo Gabriel Mourao Thiel  
 Karlsruhe Institute of Technology (KIT)  
 Institute for Industrial Production (IIP)  
 May 2026  
@@ -33,16 +33,7 @@ This repository enables:
 
 ### Data
 
-Contains all input data required for the analysis.
-
-Includes:
-
-- generation capacity data  
-- renewable generation profiles  
-- demand time series  
-- hydropower inflows  
-- Net Transfer Capacities (NTC, based on TYNDP 2024)  
-
+The datasets used in this thesis are not included in this repository due to their size and/or licensing restrictions. The repository therefore contains the source code, selected results and documentation required to understand the modelling approach and reproduce the analysis where possible.
 ---
 
 ### Models
